@@ -14,5 +14,5 @@ this is app example library to test how cocoapods works
   s.source           = { :git => 'https://github.com/ajayMishra1/ajayframework.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'ajayframework/Classes/*'
+  s.source_files = 'Classes/*'
 end
