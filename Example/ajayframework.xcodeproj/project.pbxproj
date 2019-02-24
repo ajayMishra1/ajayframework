@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		128B721B903410F0699746BD /* Pods-ajayframework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajayframework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajayframework_Tests/Pods-ajayframework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1AC4D8A70E69349EEF2B9547 /* ajayframework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ajayframework.podspec; path = ../ajayframework.podspec; sourceTree = "<group>"; };
-		29F365B13F44254246BF40B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1AC4D8A70E69349EEF2B9547 /* ajayframework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ajayframework.podspec; path = ../ajayframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		29F365B13F44254246BF40B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2D33E6D22041CD6EC31A0620 /* Pods_ajayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajayframework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ajayframework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ajayframework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		6B1F9A5556A5227E9C478F64 /* Pods-ajayframework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajayframework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajayframework_Example/Pods-ajayframework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8726B9D4318D39BB0325F7A4 /* Pods-ajayframework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajayframework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ajayframework_Tests/Pods-ajayframework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		87AD5CD4FE43E3BAE1DE6D67 /* Pods_ajayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajayframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F077BDC692ACB27369D8C143 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F077BDC692ACB27369D8C143 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FA453256A0EF2513A56502AB /* Pods-ajayframework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajayframework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ajayframework_Example/Pods-ajayframework_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

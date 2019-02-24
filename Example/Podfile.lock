@@ -1,0 +1,16 @@
+PODS:
+  - ajayframework (0.1.0)
+
+DEPENDENCIES:
+  - ajayframework (from `../`)
+
+EXTERNAL SOURCES:
+  ajayframework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ajayframework: 77b05ec6f55deb7ee5e50643739f33ed60552fc9
+
+PODFILE CHECKSUM: 7d56b281ab23c0b00879f0aba94df703d3302b69
+
+COCOAPODS: 1.5.3
