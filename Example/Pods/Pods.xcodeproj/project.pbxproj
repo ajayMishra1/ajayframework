@@ -14,7 +14,9 @@
 		8676B09C5FC2D6C9772728957D90B50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		86F0DB60FC95F17A5674FD403008AAA7 /* Pods-ajayframework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0414CB1DC5543F7A102210F5DBC839C /* Pods-ajayframework_Example-dummy.m */; };
 		AF7A2633BDC7EEDEE85BC3F8423FD20E /* ajayframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF062DD442206AFA1ADE68ED9F4B77 /* ajayframework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD11A1E72222F8CB00580BE3 /* myNewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11A1E62222F8CB00580BE3 /* myNewFile.swift */; };
+		DD11A1EB222304AE00580BE3 /* sffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11A1EA222304AE00580BE3 /* sffff.swift */; };
+		DD11A1F1222304E900580BE3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = DD11A1EE222304E900580BE3 /* .gitkeep */; };
+		DD11A1F2222304E900580BE3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = DD11A1F0222304E900580BE3 /* .gitkeep */; };
 		E0D159110C5E27BFA5F339E1C0284C01 /* Pods-ajayframework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BED0F92637C3EDBCC44109A9A136492 /* Pods-ajayframework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F547802DA5367C299D6587EB763C3103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +66,9 @@
 		CDEB3ABC961487165D6201EFF5AA597D /* Pods-ajayframework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ajayframework_Tests-resources.sh"; sourceTree = "<group>"; };
 		D6D4FB7CBB915E00092D63909C1D007D /* Pods-ajayframework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ajayframework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD11A1E62222F8CB00580BE3 /* myNewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNewFile.swift; sourceTree = "<group>"; };
+		DD11A1EA222304AE00580BE3 /* sffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sffff.swift; sourceTree = "<group>"; };
+		DD11A1EE222304E900580BE3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		DD11A1F0222304E900580BE3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		DD6C371CB56756EB56BA28AEDE6AABD8 /* Pods-ajayframework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ajayframework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEED27F6092B00772CD2F231F16C68EF /* ajayframework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ajayframework.modulemap; sourceTree = "<group>"; };
 		E0414CB1DC5543F7A102210F5DBC839C /* Pods-ajayframework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ajayframework_Example-dummy.m"; sourceTree = "<group>"; };
@@ -105,7 +109,7 @@
 		4239EB117F8743F98DEA6AA4DF30C75B /* ajayframework */ = {
 			isa = PBXGroup;
 			children = (
-				DD11A1E62222F8CB00580BE3 /* myNewFile.swift */,
+				DD11A1EC222304E900580BE3 /* ajayframework */,
 				8CC038977A9868361BF00954D315F6ED /* Pod */,
 				F113D780B52FCEE9B0530C8F491DC348 /* Support Files */,
 			);
@@ -202,6 +206,32 @@
 			);
 			name = "Pods-ajayframework_Tests";
 			path = "Target Support Files/Pods-ajayframework_Tests";
+			sourceTree = "<group>";
+		};
+		DD11A1EC222304E900580BE3 /* ajayframework */ = {
+			isa = PBXGroup;
+			children = (
+				DD11A1ED222304E900580BE3 /* Classes */,
+				DD11A1EF222304E900580BE3 /* Assets */,
+			);
+			path = ajayframework;
+			sourceTree = "<group>";
+		};
+		DD11A1ED222304E900580BE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD11A1EA222304AE00580BE3 /* sffff.swift */,
+				DD11A1EE222304E900580BE3 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DD11A1EF222304E900580BE3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DD11A1F0222304E900580BE3 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		E9B59821E5DDC30AE23CDAA81F4CDCDB /* Targets Support Files */ = {
@@ -351,6 +381,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD11A1F1222304E900580BE3 /* .gitkeep in Resources */,
+				DD11A1F2222304E900580BE3 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +423,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD11A1E72222F8CB00580BE3 /* myNewFile.swift in Sources */,
 				644EB5A1EADF9F931BF9168E7738AC91 /* ajayframework-dummy.m in Sources */,
+				DD11A1EB222304AE00580BE3 /* sffff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
