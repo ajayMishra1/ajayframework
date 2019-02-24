@@ -1,5 +1,5 @@
 //
-//  sffff.swift
+//  myFirstClass.swift
 //  ajayframework
 //
 //  Created by AjaY….. on 24/02/19.
@@ -18,9 +18,9 @@ public class sevice {
     public static func stringNewyghhbjn() -> String{
         return "ajay"
     }
-
+    
     public static func stringNewyghhbyhjjn() -> String{
         return "ajay"
     }
-
+    
 }
