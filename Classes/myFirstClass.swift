@@ -9,7 +9,7 @@ import Foundation
 public class sevice {
     private init(){}
     
-    public func hexStringToUIColor (hex:String) -> UIColor
+    public static func hexStringToUIColor (hex:String) -> UIColor
     {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
@@ -32,7 +32,7 @@ public class sevice {
         )
     }
     
-    public func hexStringToUIColorWaiting (hex:String) -> UIColor
+    public static func hexStringToUIColorWaiting (hex:String) -> UIColor
     {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
@@ -55,7 +55,7 @@ public class sevice {
         )
     }
     
-    public func validateEmail(enteredEmail:String) -> Bool
+    public static func validateEmail(enteredEmail:String) -> Bool
     {
         let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailFormat)
@@ -63,19 +63,19 @@ public class sevice {
     }
    
     
-    public func getDirectoryPath() -> String {
+    public static func getDirectoryPath() -> String {
         let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
         let documentsDirectory = paths[0]
         return documentsDirectory
     }
     
     
-    public func colorWith(red : CGFloat,green : CGFloat, blue : CGFloat,alpha : CGFloat) -> UIColor
+    public static func colorWith(red : CGFloat,green : CGFloat, blue : CGFloat,alpha : CGFloat) -> UIColor
     {
         return UIColor(red: red/255.0, green: green/255.0, blue: blue/255.0, alpha: alpha)
     }
     
-    public func image(fromLayer layer: CALayer) -> UIImage {
+    public static func image(fromLayer layer: CALayer) -> UIImage {
         
         UIGraphicsBeginImageContext(layer.frame.size)
         layer.render(in: UIGraphicsGetCurrentContext()!)
@@ -84,7 +84,7 @@ public class sevice {
         return outputImage!
     }
     
-    public func calcAge(birthday: String) -> Int {
+    public static func calcAge(birthday: String) -> Int {
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "yyyy/MM/dd"
         let birthdayDate = dateFormater.date(from: birthday)
@@ -95,7 +95,7 @@ public class sevice {
         return age!
     }
     
-    public func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat
+    public static func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat
     {
         let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: CGFloat.greatestFiniteMagnitude))
         label.numberOfLines = 0
@@ -112,14 +112,14 @@ public class sevice {
         return label.frame.height
     }
   
-    public func json(from object:Any) -> String? {
+    public static func json(from object:Any) -> String? {
         guard let data = try? JSONSerialization.data(withJSONObject: object, options: []) else {
             return nil
         }
         return String(data: data, encoding: String.Encoding.utf8)
     }
     
-    public func gradient(from c1: UIColor?, to c2: UIColor?, withHeight height: Int) -> UIColor? {
+    public static func gradient(from c1: UIColor?, to c2: UIColor?, withHeight height: Int) -> UIColor? {
         let size = CGSize(width: 1, height: CGFloat(height))
         UIGraphicsBeginImageContextWithOptions(size, false, 0)
         let context = UIGraphicsGetCurrentContext()
@@ -138,5 +138,9 @@ public class sevice {
         return nil
     }
     
+    public static func stringNew() -> String{
+        return "ajay"
+    }
+
     
 }
