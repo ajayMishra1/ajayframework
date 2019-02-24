@@ -8,6 +8,7 @@
 import Foundation
 public class sevice {
     private init(){}
+    
     public func hexStringToUIColor (hex:String) -> UIColor
     {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
