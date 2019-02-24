@@ -23,4 +23,12 @@ public class sevice {
         return "ajay"
     }
     
+    public static func stringNewcccyghhbjn() -> String{
+        return "ajay"
+    }
+    
+    public static func stringNewccyghhbyhjjn() -> String{
+        return "ajay"
+    }
+    
 }
