@@ -14,5 +14,10 @@ public class sevice {
     public static func stringNewygh() -> String{
         return "ajay"
     }
+    
+    public static func stringNewyghhbjn() -> String{
+        return "ajay"
+    }
+
 
 }
