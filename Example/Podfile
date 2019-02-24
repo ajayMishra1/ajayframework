@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ajayframework_Example' do
+  pod 'ajayframework', :path => '../'
+
+  target 'ajayframework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
