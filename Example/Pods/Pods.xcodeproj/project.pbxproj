@@ -13,8 +13,8 @@
 		85C1B124C8307715F9EE7ADB6DA6524F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		8676B09C5FC2D6C9772728957D90B50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		86F0DB60FC95F17A5674FD403008AAA7 /* Pods-ajayframework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0414CB1DC5543F7A102210F5DBC839C /* Pods-ajayframework_Example-dummy.m */; };
-		A7EAC755CFF2EA6E0898312DDAE48535 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E12E19C598AA2ED9419046011757498 /* ReplaceMe.swift */; };
 		AF7A2633BDC7EEDEE85BC3F8423FD20E /* ajayframework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF062DD442206AFA1ADE68ED9F4B77 /* ajayframework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD11A1E72222F8CB00580BE3 /* myNewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11A1E62222F8CB00580BE3 /* myNewFile.swift */; };
 		E0D159110C5E27BFA5F339E1C0284C01 /* Pods-ajayframework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BED0F92637C3EDBCC44109A9A136492 /* Pods-ajayframework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F547802DA5367C299D6587EB763C3103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		08ACBDEFAA9DB1F9D6F165A1804DEF9E /* Pods-ajayframework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ajayframework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		08C3C95E9C2E5450B49A4F5049119657 /* Pods-ajayframework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ajayframework_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0F706C391B8004F404ACA72F6D9DE25E /* Pods_ajayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ajayframework_Tests.framework; path = "Pods-ajayframework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1083460333CEEAB6F03C714FB4424DF6 /* ajayframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ajayframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F706C391B8004F404ACA72F6D9DE25E /* Pods_ajayframework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajayframework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1083460333CEEAB6F03C714FB4424DF6 /* ajayframework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ajayframework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		120AE37531402BA910C769221E0EBBDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3B40ADA91989298235FFC6B0B35400 /* ajayframework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ajayframework.xcconfig; sourceTree = "<group>"; };
 		1E1EA56FEA5B850ABDDBBA544F8F60E1 /* ajayframework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ajayframework-prefix.pch"; sourceTree = "<group>"; };
@@ -52,24 +52,24 @@
 		4FFF062DD442206AFA1ADE68ED9F4B77 /* ajayframework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ajayframework-umbrella.h"; sourceTree = "<group>"; };
 		6656407049B7E0DA18C4D05C06313608 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C5C4F26520B0974057746BA00C91D0E /* Pods-ajayframework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ajayframework_Example.modulemap"; sourceTree = "<group>"; };
-		6E5A5E7F3B830CC1608C51D804550B5B /* ajayframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ajayframework.framework; path = ajayframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5A5E7F3B830CC1608C51D804550B5B /* ajayframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ajayframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCCF0349DA1911884ACB9F0B3EC11F4 /* Pods-ajayframework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ajayframework_Example-resources.sh"; sourceTree = "<group>"; };
 		8B730B22C0386D506621AEEB5A567B46 /* Pods-ajayframework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ajayframework_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		921E025B3C0E94A9E04219CEEED6B7F1 /* Pods_ajayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ajayframework_Example.framework; path = "Pods-ajayframework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		921E025B3C0E94A9E04219CEEED6B7F1 /* Pods_ajayframework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajayframework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98BAE5BB6328F063FD4BEC23BEE22AA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BED0F92637C3EDBCC44109A9A136492 /* Pods-ajayframework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ajayframework_Example-umbrella.h"; sourceTree = "<group>"; };
-		9E12E19C598AA2ED9419046011757498 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ajayframework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		AF1FBCD907F1CF3B6E6A3F4322970889 /* ajayframework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ajayframework-dummy.m"; sourceTree = "<group>"; };
-		C8A056B7723B8861FF682923E1B2AAEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C8A056B7723B8861FF682923E1B2AAEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CDEB3ABC961487165D6201EFF5AA597D /* Pods-ajayframework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ajayframework_Tests-resources.sh"; sourceTree = "<group>"; };
 		D6D4FB7CBB915E00092D63909C1D007D /* Pods-ajayframework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ajayframework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD11A1E62222F8CB00580BE3 /* myNewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNewFile.swift; sourceTree = "<group>"; };
 		DD6C371CB56756EB56BA28AEDE6AABD8 /* Pods-ajayframework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ajayframework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEED27F6092B00772CD2F231F16C68EF /* ajayframework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ajayframework.modulemap; sourceTree = "<group>"; };
 		E0414CB1DC5543F7A102210F5DBC839C /* Pods-ajayframework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ajayframework_Example-dummy.m"; sourceTree = "<group>"; };
 		E2336A518960EFBCC9A2AD89A598A5E4 /* Pods-ajayframework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ajayframework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E93C6D0DB6927010FEA3A5F1CB316D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E93C6D0DB6927010FEA3A5F1CB316D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECA33837B2BA539DE26194016A2F0240 /* Pods-ajayframework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ajayframework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F69AA0CC20CF631087CB354889F05519 /* Pods-ajayframework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ajayframework_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 		4239EB117F8743F98DEA6AA4DF30C75B /* ajayframework */ = {
 			isa = PBXGroup;
 			children = (
-				9E12E19C598AA2ED9419046011757498 /* ReplaceMe.swift */,
+				DD11A1E62222F8CB00580BE3 /* myNewFile.swift */,
 				8CC038977A9868361BF00954D315F6ED /* Pod */,
 				F113D780B52FCEE9B0530C8F491DC348 /* Support Files */,
 			);
@@ -321,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					B6DF616858E299DE498688F6BB018D3F = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,8 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD11A1E72222F8CB00580BE3 /* myNewFile.swift in Sources */,
 				644EB5A1EADF9F931BF9168E7738AC91 /* ajayframework-dummy.m in Sources */,
-				A7EAC755CFF2EA6E0898312DDAE48535 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C3B40ADA91989298235FFC6B0B35400 /* ajayframework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -599,6 +605,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -661,8 +668,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -706,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C3B40ADA91989298235FFC6B0B35400 /* ajayframework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
